@@ -1,4 +1,4 @@
-//Binary operator overloading without friend function
+//Binary operator overloading using friend function
 #include<iostream>
 using namespace std;
 class Time
