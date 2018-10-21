@@ -1,3 +1,4 @@
+//unary operator overloading using friend function
 #include<iostream>
 using namespace std;
 class unary
