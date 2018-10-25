@@ -14,21 +14,18 @@ class complex
 			this->real=real;
 			this->img=img;
 		}
-		void display()
-		{
-			cout<<real<<"+i"<<img<<endl;
-		}
+		
 		bool operator==(complex c)
 		{
-			if(real==complex.real && img==c.img)
-			return true
+			if(real==c.real && img==c.img)
+			return true;
 			else
 			return false;
 		}
  };
  int main()
 {
-complex c1(10,20),c2(10,24)
+complex c1(10,20),c2(10,24);
 if(c1==c2) //c1.operator==(c2);
 cout<<"same";
 else 	
